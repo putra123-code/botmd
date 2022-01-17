@@ -4,9 +4,9 @@ const setting = JSON.parse(fs.readFileSync('./setting.json'));
 
 // Other
 global.owner = ["6289508902582","6282195322106","62887435047326"]
-global.packname = '© Alphabot MD'
+global.packname = '© CaraTech'
 global.youtube = 'https://youtube.com/c/ZeeoneOfc'
-global.author = 'ZeeoneOfc'
+global.author = 'CaraTech'
 global.sessionName = 'session'
 global.flaming = "https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text="
 global.prefa = ['','!','.','🐦','🐤','🗿']

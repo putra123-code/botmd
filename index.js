@@ -1369,6 +1369,165 @@ alpha.sendMessage(from, {image: tbuff, caption: ytresult}, {quoted:m})
 
 break
              
+             
+case 'toko': case 'shop':{
+ var ngeshop = await getBuffer(flaming+'Contributors')
+ var but = [
+          {
+            "urlButton": {
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "urlButton": {
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "url": `${myweb}`
+
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "FF",
+"id": 'freefireshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "PUBG",
+"id": 'pubgshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "ML",
+"id": 'mlshop'
+            }
+          }
+        ]
+        await alpha.send5ButLoc(from, "Silahkan pilih kak", `© ${ownername}`,ngeshop, but )
+        }
+break 
+
+case 'freefireshop':{
+ var ngeshopff = await getBuffer(flaming+'Contributors')
+ var but = [
+          {
+            "urlButton": {
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "urlButton": {
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "url": `${myweb}`
+
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "FF",
+"id": 'freefireshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "PUBG",
+"id": 'pubgshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "ML",
+"id": 'mlshop'
+            }
+          }
+        ]
+        await alpha.send5ButLoc(from, lang.harga_ff(time, salam, pushname, prefix), `© ${ownername}`,ngeshopff, but )
+        }
+break 
+
+case 'pubgshop':{
+ var ngeshoppubg = await getBuffer(flaming+'Contributors')
+ var but = [
+          {
+            "urlButton": {
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "urlButton": {
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "url": `${myweb}`
+
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "FF",
+"id": 'freefireshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "PUBG",
+"id": 'pubgshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "ML",
+"id": 'mlshop'
+            }
+          }
+        ]
+        await alpha.send5ButLoc(from, lang.harga_pubg(time, salam, pushname, prefix), `© ${ownername}`,ngeshoppubg, but )
+        }
+break 
+
+case 'mlshop':{
+ var ngeshopml = await getBuffer(flaming+'Contributors')
+ var but = [
+          {
+            "urlButton": {
+              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "urlButton": {
+              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "url": `${myweb}`
+
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "FF",
+"id": 'freefireshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "PUBG",
+"id": 'pubgshop'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "ML",
+"id": 'mlshop'
+            }
+          }
+        ]
+        await alpha.send5ButLoc(from, lang.harga_ml(time, salam, pushname, prefix), `© ${ownername}`,ngeshopml, but )
+        }
+break 
+
+
+
  default:
 if (budy.startsWith('=>')) {
 if (!m.key.fromMe && !isCreator) return m.reply(mess.owner)
