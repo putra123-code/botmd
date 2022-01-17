@@ -363,7 +363,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     + `ORG:Owner ${botname};\n` // the organization of the contact
                     + `TEL;type=CELL;type=VOICE;waid=${ownernomer}:${ownernomerr}\n`
                     + 'END:VCARD'
-                alpha.sendMessage(m.chat, { contacts: { displayName: 'Zeeone Ofc.', contacts: [{ vcard }] } }, { quoted: m })
+                alpha.sendMessage(m.chat, { contacts: { displayName: 'CaraTech.', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'rules':
@@ -1526,7 +1526,56 @@ case 'mlshop':{
         }
 break 
 
-
+case 'dm':{
+if (!q) return reply1("Format Salah")
+var F = q
+var tes1 = F.split(" ")[0];
+var tes2 = F.split(" ")[1];
+let duid = tes1
+if (duid == '50') {
+rupi = 'RP.8.000'
+} else if (duid == '70') {
+rupi = 'RP.10.000'
+} else if (duid == '100') {
+rupi = 'RP.15.000'
+} else if (duid == '140') {
+rupi = 'RP.20.000'
+} else if (duid == '210') {
+rupi = 'RP.30.000'
+} else if (duid == '280') {
+rupi = 'RP.40.000'
+} else if (duid == '355') {
+rupi = 'RP.50.000'
+} else if (duid == '425') {
+rupi = 'RP.60.000'
+} else if (duid == '500') {
+rupi = 'RP.70.000'
+} else if (duid == '565') {
+rupi = 'RP.80.000'
+} else if (duid == '635') {
+rupi = 'RP.90.000'
+} else if (duid == '720') {
+rupi = 'RP.100.000'
+} else if (duid == '1075') {
+rupi = 'RP.150.000'
+} else if (duid == '2000') {
+rupi = 'RP.275.000'
+} else if (duid == '2720') {
+rupi = 'RP.375.000'
+} else if (duid == '4000') {
+rupi = 'RP.540.000'
+} else if (duid == '6000') {
+rupi = 'RP.810.000'
+} else if (duid == '8000') {
+rupi = 'RP.1.075.000'
+}
+sendFileFromUrl(`${owner}@s.whatsapp.net`,`https://api-xfar05.herokuapp.com/api/canvas/gfx3?teks1=${tes1}&teks2=DM%20${tes2}`,`Pesan otomatis,
+Detail :
+Total DM : ${tes2}
+Harga DM : ${rupi}
+silahkan tunggu jawaban owner untuk melanjutkan`,m)
+}
+break
 
  default:
 if (budy.startsWith('=>')) {
