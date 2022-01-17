@@ -1102,3 +1102,45 @@ exports.tqto = () =>{
 • And All Support
 `
 }
+
+exports.harga_ff =  (time, salam, pushname, prefix) =>{
+return`*Selamat ${salam} ${pushname} 😖*
+*⌚Time Server : ${time}*
+*📚 List-Menu Alphabot-Md :*
+
+╭─❒ 「 FREE FIRE 」 
+├ RP.999999
+├ RP.999999
+├ RP.999999
+╰❒
+
+`
+}
+
+exports.harga_pubg =  (time, salam, pushname, prefix) =>{
+return`*Selamat ${salam} ${pushname} 😖*
+*⌚Time Server : ${time}*
+*📚 List-Menu Alphabot-Md :*
+
+╭─❒ 「 FREE FIRE 」 
+├ RP.999999
+├ RP.999999
+├ RP.999999
+╰❒
+
+`
+}
+
+exports.harga_ml =  (time, salam, pushname, prefix) =>{
+return`*Selamat ${salam} ${pushname} 😖*
+*⌚Time Server : ${time}*
+*📚 List-Menu Alphabot-Md :*
+
+╭─❒ 「 FREE FIRE 」 
+├ RP.999999
+├ RP.999999
+├ RP.999999
+╰❒
+
+`
+}
