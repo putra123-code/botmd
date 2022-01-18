@@ -1,1 +1,1 @@
-worker : npm install ffmpeg && npm install @adiwajshing/baileys@latest && npm install -g npm@8.3.1 && npm install -g pm2 && npm update && pm2 save && pm2-runtime zeeone.js
+worker : npm install ffmpeg && npm install -g npm@8.3.1 && npm install -g pm2 && npm update && pm2 save && pm2-runtime zeeone.js
